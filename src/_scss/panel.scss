@@ -1,0 +1,60 @@
+ .units{
+     display: flex;
+     gap: 10px;
+     padding: 15px 10px 20px 20px;
+}
+ .panel{
+     display: flex;
+     background: #1E1E1E;
+     background: #222;
+     width: 100%;
+     background-image: url("../assets/bg/arches.png");
+}
+ .panel + .panel{
+     margin-top: 8px;
+}
+ .panel + .panel-title{
+     margin-top: 8px;
+}
+
+ .panel-grip {
+         display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80px;
+     min-width: 80px;
+ }
+
+ .panel-grip img{
+    width: 24px;
+    min-width: 24px;
+    opacity: 0.7;
+ }
+
+ .panel-title{
+     display: flex;
+     justify-content: center;
+     width: 50px;
+     min-width: 50px;
+     text-align: center;
+}
+
+ .panel-title label{
+     font-size: 12px;
+     text-transform: uppercase;
+     writing-mode: sideways-lr;
+     letter-spacing: 0.08em;
+     opacity: 0.4;
+}
+
+
+ .panel-title label:before{
+     content: "• ";
+     opacity: 0.5;
+}
+ .panel-title label:after{
+     content: " •";
+     opacity: 0.5;
+
+}
+
